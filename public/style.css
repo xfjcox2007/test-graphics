@@ -1,0 +1,19 @@
+h1 {
+    text-align: center;
+}
+.container{
+    position: relative;
+}
+#mainCanvas {
+    display: block;
+    background: url("image/background.png") no-repeat  center center;
+    background-size: cover;
+    *position: relative;
+}
+#miniCanvas {
+    border:1px solid;
+    background: black;
+    position: absolute;
+    top: 56px;
+    left: 910px;
+}
